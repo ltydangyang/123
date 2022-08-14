@@ -1,0 +1,731 @@
+x3,8],[4,5],[4,8],[5,8],[6,7]]
+bb=[2,3,2,2,1,2,1,1]
+b=[2,3,2,2,1,2,1,1]
+c=len(b)
+d=[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
+for ab in a:x
+    d[ab[0]].append(ab)
+#print(d)
+e=[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
+k=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+ee=[]
+ff=[]
+i=1
+qjzb=Truex
+def qj_a():
+    global i
+    global qjzb
+    if i == 9:
+        qjzb=False
+        ff.appxend(ee)
+        i-=1
+    else:
+        if b[i-1]==0:
+            if qjzb==True:
+                i+=1
+                qj_a()
+        else:
+            e[i]=list(it.combinations(d[i],b[i-1]))
+            k[i]=b[i-1]
+            print(k)
+            for ei in e[i]:
+                qjzb=True
+                t=[]
+                for eii in ei:
+                    t.append(eii[1])
+                #print(t)
+                j=True
+                for ti in t:
+                    if b[ti-1]==[0]:
+                        j=Faxlse
+                if j==True:
+                    b[i-1]-=k[i]
+                    if ei!=():
+                        ee.append(ei)
+                        print(ee)
+                    for tii in t:
+                        b[tii-1]-=1
+                    i+=1
+                    xqj_a()
+            i -= 1
+            b[i - 1x] += k[i]
+            qjzb=False
+qj_a()
+a=[[1,2],[1,3],[1,4],[1,5],[1,6],[2,3],[2,4],[2,5],[2,6],[3,4],[3,5],[3,6],[3,8],[4,5],[4,8],[5,8],[6,7]]
+bb=[2,3,2,2,1,2,1,1]
+b=[2,3,2,2,1,2,1,1,0]
+d=[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
+for ab in a:
+    d[xab[0]].append(ab)
+print(d)
+e=[[],[x],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
+k=[0,0,x,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+iii=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+ee=[]
+ff=[]
+i=1
+def qj_a():
+    global i
+    print(i)
+    print('i')
+    if i == 9:
+        ff.append(ee)
+        print(ff)
+        pxrint('ff')
+    else:
+        if b[i-1]==0:
+            i+=1
+            qj_a()
+        else:
+            if len(d[i])>=b[i-1] and len(d[i])!=0:
+                e[i]=list(it.combinations(d[i],b[i-1]))
+                print(ex)
+                print('e')
+                k[i]=b[i-1]
+                print(k)
+                print('k')
+                for ei in e[i]:
+                    print(ei)
+                    print('ei')
+                    print(i)
+                    print('i')
+                    i=ei[0][0]
+                    t=[]
+                    for eii in ei:
+                        t.append(eii[1])
+                    print(yt)
+                    print('t')
+                    j=True
+                    for ti in t:
+                        if b[ti-1]==[0]:
+                            j=False
+                    if j==True:
+                        b[i-1]-=k[i]
+                        if ei!=():
+                            print(ee)
+                            print('ee')
+                            print(ff)
+                            print('ff')
+                            print(yi)
+                            print('i')
+                        for tii in t:
+                            b[tii-1]-=1
+                        i+=1
+                        #b[i - 1] += k[i]
+                        #qj_a()
+                qj_a()
+            else:
+                i+=1
+                print(ff)
+print('aaay
+220709a=[[yt,2],[1,3],[1,4],[1,5],[1,6],[2,3],[2,4],[2,5],[2,6],[3,4],[3,5],[3,6],[3,8],[4,5],[4,8],[5,8],[6,7]]
+bb=[2,3,2,2,y,2,1,1,0]
+[],[],[],[],[],[],[],[]]
+k=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+iii=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+ee=[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
+ff=[]
+i=1
+def qj_a():
+    global i
+    global b
+    global bb
+    #print(i)
+    #print('i')
+    #print(b)
+    if i == c :
+        ff.append(eye)
+        #print(ff)
+        #print('ff'
+    else:
+        if b[i-1]==0:
+            i+=1
+        else:
+            if len(d[i])==1 and b[i-1]==1:
+                e[i]=d[i]
+            elif len(d[i])>=b[i-1] and len(d[i])!=0:
+                e[i]=list(it.combinations(d[i],b[i-1]))
+                #print(e)
+                #print('e')
+                #k[i]=b[i-1]
+                #print(k)
+                #print('k')
+                for ei in e[i]:
+                    #print(ei)
+                    #print('ei')
+                    i=ei[0][0]
+                    t=[]
+                    for eii in ei:
+                        t.append(eii[1])
+                    #print(t)
+                    #print('ty')
+                    j=True
+                    b = bb.copy()
+                    #print('bbbbbbbb')
+                    for ij in range(0, c):
+                        for eeee in eey[ij]:
+                            #print(b)
+                            b[eeee[0] - 1] -= 1
+                            #print(eeee[0])
+                            #print('hhh')
+                            b[eeee[1] - 1] -= 1
+                            #print(eeee[1])
+                            #print('hhh')
+                    #print(b)
+                    #print('b')
+                    #print(t)
+                    #print('t')
+                    for ti in t:
+                        #print(ti)
+                        #print('ti')
+                        #print(b[ti-1])
+                        if b[ti-1]==[0] or b[ti-1]==0:
+                            j=False
+                            #print(j)
+                            #print('j')
+                    if j==True:
+                        if ei!=():
+                            ee[iz]=ei
+                            print(ee)
+                            print('ee')
+                            print(ff)
+                            print('ff')
+                            #print(i)
+                            #print('i')
+                            b=bb.copy()
+                            #print('bbbbbbbb')
+                            for j in range (0,c):
+                                for eeee in ee[j]:
+                                    b[eeee[0] - 1] -= 1
+                                    #print(eeee[0])
+                                    #print('hhh')
+                                    b[eeee[1] - 1] -= 1
+                                    #print(eeee[1])
+                                    #print('hhh')
+                                    #print(b)
+                                    #print('b')
+                        zi+=1
+                else:
+                i+=1
+                print(ff)
+print('aaaaa')
+a=[[1,2],[1,3],[1,4],[1,5],[1,6],[2,3],[2,4],[2,5],[2,6],[3,4],[3,5],[3,6],[3,8],[4,5],[4,8],[5,8],[6,7]]
+bb=[2,3,2,2,1,2,1,1,0]
+b=[2,3,2,2,1,2,1,1,0]
+js=0
+for bi in bb:
+    js+=bi
+js=int(js*5)
+print(js)
+c=len(b)
+d=[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
+for ab in a:
+    d[azb[0]].append(ab)
+#print(d)
+e=[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
+k=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+iii=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+ee=[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
+ff=[]
+i=1
+eec=[]
+testz=0
+def qj_a():
+    global i
+    global b
+    global bb
+    global testz
+    global eec
+    #testz+=1
+    #print(testz)
+    print('testz')
+    #print(i)
+    #print('i')
+    #print(bz)
+    #if i == c :
+        #eecjs=0
+        for eeci in eec:
+            eecjs+=len(eeci)
+        if eecjs == js:
+            #print(eec)
+            #print('eec')
+            eecf = []
+            for eecxz in eec:
+                if eecxz != []:
+                    for eecz in eecxz:
+                        eecf.append(eecz)
+            ff.append(eecf)
+        #print(ff)
+        #print('ff')
+        else:
+            if len(dz[i])==1 and b[i-1]==1:
+                #print(d[i])
+                #print('di')
+                if b[d[i][0][0]-1]!=0 and b[d[i][0][1]-1]!=0:
+                    e[i]=d[i]
+                    ee[i]=e[i]
+                i+=1
+                qj_a()
+            elif len(d[i])>=b[i-1] and len(d[i])!=0:
+                b = bb.copy()
+                # print('bbbbbbbb')
+                for ij in range(0, c):
+                    for eeee in ee[ij]:
+                        # print(b)
+                        b[eeee[0] - 1] -= 1
+                        # print(eeee[0])
+                        # print('hhh')
+                        b[eeee[1] - 1] -= 1
+                e[i]=list(it.combinations(d[ix],b[i-1]))
+                #print(e)
+                #print('e')
+                #k[i]=b[i-1]
+                #print(k)
+                #print('k')
+                for ei in e[i]:
+                    #print(ei)
+                    #print('ei')
+                    if ei!=() or None:
+                        #print(ei)
+                        #print('ei')
+                        i=xei[0][0]
+                    #t=[]
+                    #for eii in ei:
+                        #t.append(eii[1])
+                    #print(t)
+                    #print('t')
+                    for ia in range(i, c):
+                        ee[ia] = []
+                    #print('bbbbbjm')
+                    ee[i] = ei
+                    j=True
+                    b = bb.copy()
+                    #print('bbbbbbbb')
+                    for ij in range(0, y):
+                        for eeee in ee[ij]:
+                            #print(b)
+                            b[eeee[0] - 1] -= 1
+                            #print(eeee[0])
+                            #print('hhh')
+                            b[eeee[1] - 1] -= 1
+                            #print(eeee[1])
+                            #print('hhh')
+                    #print(b)
+                    #print('b')
+                    #print(ee)
+                    #print('ee')
+                    for iiii in b:
+                        if iiii<0:
+                            j=False
+                    #print(tz)
+                    #print('t')
+                    #for ti in t:
+                        #print(ti)
+                        #print('ti')
+                        #print(b[ti-1])
+                        #if b[ti-1]==[0] or b[ti-1]==0:
+                            #j=False
+                            #print(j)
+                            #print('j')
+                    if j==True:
+                        if ei!=():
+                            eez[i]=ei
+                            #print(ee)
+                            #print('ee')
+                            #print(ff)
+                            #print('ff')
+                            #print(i)
+                            #print('i')
+                            b=bb.copy()
+                            #print('bbbbbbbb')
+                            for j in range (0,c):
+                                for eeee in ee[j]:
+                                    b[eeee[0] - 1] -= 1
+                                    #print(eeee[0])
+                                    #print('hhh')
+                                    b[ee[1] - 1] -= 1
+                                    #print(ee[1])
+                                    #print('hhh')
+                                    #print(b)
+                                    #print('b')
+                        i+=1
+                        #print('aaaaajm')
+                        qj_a()
+                eec=ee.copy()
+                eeee[i]=[]
+                #print(i)
+                #print("i")
+print('dff')
+print(ff)
+print(len(ff))
+print('aaaaa')
+ffz=[]
+def qc_a():
+    global ffz
+    csa={1,1}
+    bcsj=ff
+    cscs=True
+    while css==True:
+        for csa in csa:
+            for bciy in bcsj:
+                for bciy in bci:
+                    if bcii[0]==csai:
+                        csa.append(bcii[1])
+                    elif bcii[1]==csai:
+                        csa.append(bcii[0])
+                    list(set(csa))
+                lts=len(csa+1)
+                if lts == c:
+                    qc_ay()
+print(ffz)
+print(len(ffz))
+hhw=[[1,2],[1,7],[1,13],[2,14,15],[15,16],[15,17]]
+hhwc=copy.deepcopy(hhw)
+hhwy=[]
+kh=0
+for hhws in hhw:
+    if hhws[0]>hhws[1]:
+        hhwy.append(hhws[0])
+    else:
+        hhwy.append(hhws[1])
+hhwm=max(hhwy)
+print(hhwm)
+hha=[]
+hhby=[]
+#hkh=[]
+for iai in range(0,hhwm):
+    #kh+=1
+    hha.append(hhb)
+    #hkh.append(kh)
+if kki<hhwm:
+        kki+=1
+        if khhwi[0] == kki + 1:
+            print(hhwi)
+            hha[kki].append(hhwi[1])
+            print(hha)
+        elif hhwi[1] == kki + 1:
+            hha[kki].append(hhwi[0])
+        kki_i()for hhwi in hhwc:
+    kki=0
+    kki_i()
+print(hkha)
+plt.figure()
+plt.scatter(9,9)
+xxx=(1,0.5,0.5,-0.5,-0.5,-1,-1,-0.5,-0.5,0.5,0.5,1,0.45,-0.45,-0.9,-0.45,0.45,0.9,1,2)
+yyy=(0,0.9,0.9,0.9,0.9,0,0,-0.9,-0.9,-0.9,-0.9,0,0.85,0.85,-0.05,-0.85,-0.85,-0.05,0,0)
+for iii in range (0,len(xxx)-1):
+    if iii%2==0:
+        a=(xxx[iii],xxx[iii+1])
+        b=(yyy[iii],yyy[iii+1])
+        plt.plot(a,b,color='black')
+plt.scatter(0.5,0.9,s=100,color='blue')
+plt.text(0.5,0.9,'N',fontsize=10,verticalalignment='center',horizontalalignment='center')
+plt.show()
+a=[3,2,2,3,6,3,7,1,2]
+#ara=np.array(a)
+#ba=1
+ca=[]
+for iii in a:
+    ba=ba*iii
+print(ba)
+b=len(a)
+print(b)
+for i in range (0,b):
+    #print(i)
+    c=1
+    for ii in range (i,b):
+        c=c*a[ii]
+    print(c)
+    ca.append(c)
+print(ca)
+arca=np.array(ca)
+del ca[0]
+ca.append(1)
+arcb=np.array(ca)
+p=2
+arda=((p-p%arcb)/arcb)%ara
+print(arda)
+#a=[[2,3,2],[9,1,'d'],[5,1,''],[4,1,''],[3,2,2]]
+#b=[['c','c',1,3],['c','f',8,11],['c2','c2',3,6],['c','c2',2,4],['b','c',5,8]]
+#c=[]
+#for aai in range(0,len(a)):
+    #c.append([])
+    #for bb in b:
+        #if a[aai][0]>bb[2] and a[aai][0]<bb[3]:
+         #   c[aai].append(bb)
+          #  #print(c)
+            #print(aai)
+#d=[]
+#for di in range(0,len(c)):
+ #   d.append([])
+#print(c)
+#for ca in range(0,len(c)):
+ #   print(ca)
+  #  print('ca')
+   # for cb in range(0,len(c)):
+    #    print(cb)
+     #   print('cb')
+      #  if ca!=cb and (c[ca][0][1]==c[cb][0][0] or c[cb][0][1]==c[ca][0][0]):
+       #     print(ca)
+        #    print('ca2')
+         #   print(cb)
+          #  print('cb2')
+       #     d[ca].append(cb+1)
+#print(d)
+yzzh_js=0
+yzzh_js=0
+for bi in yzzh_bb:
+    yzzh_js+=bi
+yzzh_js=int(yzzh_js*5)
+print(yzzh_js)
+yyzzh_c=len(yzzh_b
+yzzh_d=[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
+for ab in yzzh_a:
+    yyzzh_d[ab[0]].append(ab)
+#print(d)
+yzzh_e=[[],
+yzzh_ff=[]
+yzzh_i=1
+yzzh_eec=[]
+yzzzh_testz=0
+def yzzh_qj_a():
+    global yzzh_eec
+    print(yzzh_ey)
+    print(yzz_eecc)
+    print('??????????')
+    global yzzh_i
+    global yzzh_b
+    global yzzh_bbb
+    global yzzh_testz
+    #testz+=1
+    #print(testz)
+    #print('testz')
+    print(yzzh_i)
+    print('i')
+    #print(b)
+    #print('b'
+    if yzzh_i == yzzh_c :
+        print('i==c')
+        yzzh_eecjs=0
+        for yzzh_eeci in yzzh_eec:
+            yzzh_eecjs+=len(yzzh_eeci)
+        print(yzzh_ees)
+        print(yzzh_s)
+        print('abcccc')
+        #yzzh_eec = yzzh_ee.copy()
+        if yzzh_eecjs == yzzh_js:
+            print('eec=js')
+            #print('ec')
+            yzzh_eecf = []
+            for yzzh_eec in yzzh_eec:
+                if yzzh_exz != []:
+                    for yzzh_eecz in yzzh_eecxz:
+                        yzzh_eecf.append(yzzh_eecz)
+            yzzh_ff.append(yzzh_eecf)
+        print(yzzh_ff)
+        print('ffz')
+    else:
+        print('i!=c')
+        if yzzh_b[yzzh_i-1]==0:
+            print('b0')
+            yzzh_i+=1
+        else:
+            print('el')
+            print(yzzh_d)
+            print(yzzh_b)
+            if len(yzzh_d[yzzh_i])==1 and yzzh_b[yzzh_i-1]==1:
+                #print(yzzh_d[yzzh_i])
+                print('di')
+                if yzzh_b[yzzh_d[yzzh_i][0][0]-1]!=0 and yzzh_b[yzzh_d[yzzh_i][0][1]-1]!=0:
+                    print('if1')
+                    yzzh_e[yzzh_i]=yzzh_d[yzzh_i]
+                    yzzh_ee[yzzh_i]=yzzh_e[yzzh_i]
+                yzzh_i+=1
+                yzzh_b = yzzh_bb.copy()
+                print('bbbbbbbb')
+                for yzzh_ij in range(0, yzzh_c):
+                    for yzzh_eeee in yzzh_ee[yzzh_ij]:
+                        # print(b)
+                        yzzh_b[yzzh_eeee[0] - 1] -= 1
+                        # print(eeee[0])
+                        # print('hhh')
+                        yzzh_b[yzzh_eeee[1] - 1] -= 1
+                yzzh_eec = yzzh_ee.copy()
+                yzzh_qj_a()
+            elif len(yzzh_d[yzzh_i])>=yzzh_b[yzzh_i-1] and len(yzzh_d[yzzh_i])!=0:
+                yzzh_b = yzzh_bb.copy()
+                print('bbbbbbbb')
+                for yzzh_ij in range(0, yzzh_c):
+                    for yzzh_eeee in yzzh_ee[yzzh_ij]:
+                        # print(b)
+                        yzzh_b[yzzh_eeee[1] - 1] -= 1
+                        # print(ee[0])
+                        # print('hhh')
+                        yzzh_b[yzzh_eeee[1] - 1] -= 1
+                yzzh_e[yzzh_i]=list(it.combinations(yzzh_d[yzzh_i],yzzh_b[yzzh_i-1]))
+                print(yzzh_e)
+                print('e')
+                #k[i]=b[i-1]
+                #print(k)
+                #print('k')
+                for yzzh_e in yzzh_ei[yzzh_i]:
+                    print(yzzh_ei)
+                    print('e')
+                    if yzzh_ei!=() or None:
+                        #print(ei)
+                        print('ei')
+                        yzzh_i=yzzh_ei[0][0]
+                    #t=0
+                    #for eiii in ei:
+                        #t.append(eii[0])
+                    #print(t)
+                    #print('t')
+                    for yzzh_ia in range(yzzh_i, yzzh_c):
+                        yzzh_ee[yzzh_ia] = []
+                    #print('bbbbbjm')
+                    yzzh_ee[yzzh_i] = yzzh_ei
+                    yzzh_j=True
+                    yzzh_bi = yzzh_bb.copy()
+                    #print('bbbbbbbb')
+                    for yzzh_ij in range(0, yzzh_c):
+                        for yzzh_eeee in yzzh_ee[yzzh_ij]:
+                            #print(b)
+                            yzzh_y[yzzh_eeee[0] - 1] -= 1
+                            #print(eee[0])
+                            #print('hhh')
+                            yzzh_b[yzzh_eee[1] - 1] -= 1
+                            #print(eeee[1])
+                            #print('hhh')
+                    #print(kb)
+                    for yzzh_iiii in yzzh_b:
+                        if yzzh_iiii<0:
+                            yzzh_j=False
+                    #print(t)
+                    #print('t')
+                    #for ti in t:
+                        #print(ti)
+                        #print('ti')
+                        #print(b[ti-1])
+                        #if b[ti-1]==[0] or b[ti-1]==0:
+                            #j=False
+                            #print(j)
+                            #print('j')
+                    if yzzh_j==True:
+                        if yzzh_ei!=():
+                            yzzh_ee[yzzh_i]=yzzh_ei
+                            #print(ee)
+                            #print('ee')
+                            #print(ff)
+                            #print('ff')
+                            #print(i)
+                            #print('i')
+                            yzzh_b=yzzh_bb.copy()
+                            #print('bbbbbbbb')
+                            for yzzh_j in range (0,yzzh_c):
+                                for yzzh_eeee in yzzh_ee[yzzh_j]:
+                                    yzzh_b[yzzh_eeee[0] - 1] -= 1
+                                    print(yzzh_eeee[0])
+                                    print('hhh')
+                                    yzzh_b[yzzh_eeee[1] - 1] -= 1
+                                    #print(eeee[1])
+                                    #print('hhh')
+                                    #print(b)
+                                    #print('b')
+                        yzzh_i+=1
+                       #print('aaaaajm')
+                        yzzh_qj_a()
+                yzzh_eec=yzzh_ee.copy()
+               print(yzzh_eec)
+                yzzh_ee[yzzh_i]=[]
+               print('eecee')
+                #print(i)
+                #print("i")
+                yzzh_qj_a()
+            else:
+                yzzh_i+=1
+yzzh_qj_a()
+print('dff')
+print(yzzh_ff)
+print(len(yzzh_ff))
+print('aaaaa')
+yzzh_ffz=[]yzzh_qc_a():
+    for ikj in range(1,c):
+        zjh.append(kj)
+        fzlb.append(ikj)
+    print(zjh)
+    dfzlb=pd.DataFrame(fzlb)
+    print(dfzlb)
+    for yzzh_ffio in yzzh_ff:
+        print('one')
+        yzzh_ffi=copy.deepcopy(yzzh_ffio)
+        wdcs=js+1
+        for yzzh_ij in range(1,yzzh_js+1):
+            print(yzzh_ij)
+            #wdcs-=1
+            #wdcsk=wdcs
+            for yzzh_ik in range(yzzh_ij,yzzh_js):
+                #wdcs-=1
+                yzzh_jj=True
+                yzzh_kk=False
+                while yzzh_jj == True:
+                    for yzzh_ffiys in yzzh_ffi[yzzh_js-yzzh_ij]:
+                        yzzh_jj=True
+                        while yzzh_jj == True:
+                            for yzzh_ffjys in yzzh_ffi[yzzh_js-yzzh_ik-1]:
+                                if yzzh_ffiys==yzzh_ffjys:
+                                  print(ffi)
+                                   print(ffjys)
+                                    print(ffiys)
+                                    for yzzh_ffiks in yzzh_ffi[yzzh_js-yzzh_ij]:
+                                      print('ffiks')
+                                       yzzh_ffi[yzzh_js-yzzh_ik-1].append(yzzh_ffiks)
+                                      list(set(yzzh_ffi[yzzh_js-yzzh_ik]))
+                                        print(ffi[js-ik])
+                                       yzzh_ffi[yzzh_js-yzzh_ij]=[]
+                                        print(ffi[js-ij])
+                                       print('s[]')
+                                    print('1end？')
+                            yzzh_jj=False
+                    yzzh_jj=False
+            wdcs=wdcsk
+        print(yzzh_ffi)
+        yzzh_fl = 0
+        for yzzh_jy in yzzh_ffi:
+            if yzzh_jy==[]:
+                yzzh_fl+=1
+        if yzzh_fl == yzzh_js-1:
+            yzzh_ffz.append(copy.deepcopy(yzzh_ffio))
+yzzh_qc_a()
+print('haha')
+print(yzzh_ffz)
+print(len(yzzh_ffz))
+yzzh_a=1
+yzzh_yzljs=[0,0,0,0,0,1,0]
+for yzzh_zhsczi in range(1,len(yzzh_yzljs)):
+    print(yzzh_zhsczi)
+    yzzh_zhsxqjh.append([])
+    for yzzh_as in yzzh_a:
+        if yzzh_as[0]==yzzh_zhsczi:
+            yzzh_zhsxqjh[-1].append(yzzh_as)
+print(yzzh_zhsxqjh)
+yzzh_gzz=[]yzzh_kss=1
+yzzh_jsztpd=False
+def yzzh_gzzjc():
+    yzzh_yzljssy = yzzh_yzljs
+    for yzzh_gzi in yzzh_gzz:
+        for yzzh_gzii in yzzh_gzi:
+            for yzzh_gza in yzzh_gzii:
+                yzzh_yzljssy[yzzh_gza-1]-=1
+yzzh_gint(yzzh_yzljssy)
+
+def yzzh_sssf():
+    yzzh_zkss=[]
+    global yzzh_kss
+    yzzh_jsztpd=True
+    for yzzh_i in range(0,len(yzzh_yzljssy)):
+        if yzzh_yzljssy[yzzh_i]!=0:            yzzh_zkss.append(yzzh_i+1)
+            yzzh_kss=yzzh_i+1
+            yzzh_jsztpd=False
+    if yzzh_jsztpd==False:yzzh_kss=yzzh_zkss[0]else:yzzh_kss=len(yzzh_yzljssy)yzzh_sssf()print(yzzh_kss)print(yzzh_jsztpd)def yzzh_xyzcq():
+
+    if yzzh_kss>0 and :
